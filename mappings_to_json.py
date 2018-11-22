@@ -1,6 +1,8 @@
 from lxml import etree as ET
 import os, json
 
+print("hello")
+
 def mapping_to_json(mappings):
     for mapping in mappings.getroot().xpath('//mapping'):
         out = {
